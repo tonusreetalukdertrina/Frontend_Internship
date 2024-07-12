@@ -4,7 +4,7 @@ import { Box, Typography, Paper } from '@mui/material';
 
 const Data = () => {
   const location = useLocation();
-  const formData = location.state; // Get the form data from the location state
+  const formData = location.state; 
 
   if (!formData) {
     return (
