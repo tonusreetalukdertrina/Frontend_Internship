@@ -119,8 +119,6 @@ const Form = () => {
         }
       }
     }
-
-    // If all fields are valid, navigate to the Data component
     navigate('/data', { state: formState });
   };
 
